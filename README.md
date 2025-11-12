@@ -32,7 +32,7 @@ Utility functions: `_script/utils_ecology_myxo.R`
    - `_script/Single_substitution_detect_among_singleton.py`
 
 How to cite
-- Paper: Inoue et al. 2025, "Regional endemism instead of unlimited gene flow..." Ecological Monographs.
+- Paper: shown after published.
 - Repository (Zenodo DOI will be added after release): https://doi.org/10.5281/zenodo.YOUR_ID
 
 License
