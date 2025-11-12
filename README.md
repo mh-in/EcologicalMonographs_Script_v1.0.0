@@ -13,7 +13,7 @@ Raw and processed data
   - _data/processed_data/
     - singleton176_mafft.fas
     - unique473_mafft.fas
-  - These are the exact files used for figures and tables.
+  - These are the files only used for analyses with python script included.
 
 Reproduce the analyses
 1. Place raw data under `data/` and processed inputs under `_data/processed_data/`.
@@ -27,6 +27,9 @@ Reproduce the analyses
    - `_script/04_haplotype_beta_diversity_analysis.R`
    - `_script/05_species_ecological_analysis.R`
 Utility functions: `_script/utils_ecology_myxo.R`
+4. Run these scripts at any time to analse the seqeunce data with python:
+   - `_script/Double peak detection.py`
+   - `_script/Single_substitution_detect_among_singleton.py`
 
 How to cite
 - Paper: Inoue et al. 2025, "Regional endemism instead of unlimited gene flow..." Ecological Monographs.
