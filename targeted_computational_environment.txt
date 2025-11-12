@@ -1,0 +1,90 @@
+=== Enhanced Targeted Computational Environment Report ===
+
+Report generated: 2025-11-11 15:23:04 
+
+Working directory: /Users/mahoinoue/Projects/#2-3_nivi_biogeo/_script 
+
+This report includes packages used in specified analysis scripts.
+
+TARGETED SCRIPTS:
+- 01_data_cleaning_processing.R [FOUND] 
+- 02_basic_statistics.r [FOUND] 
+- 03_geographic_differentiation.r [FOUND] 
+- 04_beta_diversity_analysis.r [FOUND] 
+- 05_ecological_analysis.r [FOUND] 
+- utils_ecology_myxo.R [FOUND] 
+
+1. R VERSION INFORMATION:
+Version: R version 4.5.1 (2025-06-13) 
+Platform: aarch64-apple-darwin20 
+
+2. PACKAGES FROM TARGETED SCRIPTS:
+
+Analyzing: 01_data_cleaning_processing.R 
+  Auto-detected: 6 packages
+  Colon operator: 2 packages
+
+Analyzing: 02_basic_statistics.r 
+  Auto-detected: 6 packages
+  Colon operator: 3 packages
+
+Analyzing: 03_geographic_differentiation.r 
+  Auto-detected: 4 packages
+  Colon operator: 1 packages
+
+Analyzing: 04_beta_diversity_analysis.r 
+  Auto-detected: 10 packages
+  Colon operator: 2 packages
+
+Analyzing: 05_ecological_analysis.r 
+  Auto-detected: 8 packages
+  Colon operator: 2 packages
+
+Analyzing: utils_ecology_myxo.R 
+  Auto-detected: 7 packages
+  Colon operator: 7 packages
+
+SUMMARY:
+Total unique packages found: 29 
+
+     Package Version
+         ape   5.8.1
+       broom   1.0.9
+       caret   7.0.1
+       dplyr   1.1.4
+   geosphere  1.5.20
+       ggalt   0.6.1
+  ggbeeswarm   0.7.2
+     ggrepel   0.9.6
+   gridExtra     2.3
+  kableExtra   1.4.0
+       knitr    1.50
+       ncdf4    1.24
+    phangorn  2.12.1
+    pheatmap  1.0.13
+    phyloseq  1.52.0
+     picante   1.8.2
+       psych   2.5.6
+       purrr   1.1.0
+      qgraph   1.9.8
+ randomcoloR 1.1.0.1
+      raster  3.6.32
+       rlang   1.1.6
+      scales   1.4.0
+      tibble   3.3.0
+       tidyr   1.3.1
+       tools   4.5.1
+       vegan   2.7.1
+        webr   0.1.5
+        yaml  2.3.10
+
+4. KEY ECOLOGICAL PACKAGES VERIFICATION:
+WARNING: The following key packages were not detected:
+- iNEXT
+- proxy
+- ggplot2
+- patchwork 
+They are used in the analysis but may not be properly detected.
+
+5. RENV STATUS:
+No issues found -- the project is in a consistent state.
